@@ -13,4 +13,8 @@ snaps uses the configuration file created by the AWS cli:
 
 ## Running 
 
-`pipenv run pythong snaps/snaps.py`
+`pipenv run pythong snaps/snaps.py <command>
+< --project=PROJECT >`
+
+*command* is list, start, or stop
+*project* is instances' Project tag value and is optional
